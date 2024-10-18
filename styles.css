@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #fca17d, #ffdab9);
+}
+
+.container {
+    background-color: #fca17d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilos del input */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #7a304f;
+    color: white;
+}
+
+/* Estilos de los botones */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #7a304f;
+    color: white;
+    cursor: pointer;
+    width: 45%;
+}
+
+button:hover {
+    background-color: #a04060;
+}
+
+#result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #7a304f;
+    font-weight: bold;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 15px;
+        width: 48%;
+    }
+
+    #result {
+        font-size: 1rem;
+    }
+}
+
